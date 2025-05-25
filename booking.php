@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $date = $_POST["date"];
     $doctor = $_POST["doctor"];
 
-    echo "Appointment booked successfully for $name with Dr. $doctor on $date.";
+    echo "Appointment booked successfully .";
 }
 ?>
 
